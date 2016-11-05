@@ -1,0 +1,28 @@
+<ion-content>
+	<div class="bar bar-header bar-positive">
+ 	 	<h1 class="title"></h1>
+ 	 	<a ui-sref="main" class="button button-icon icon icon-left ion-chevron-left">Back</a>
+  		<div class="h1 title">Autor</div>
+	</div>
+	<br><br>
+	<div class="card">
+		  <div class="item item-divider">
+		  	Informacion
+		  </div>
+		  <div class="item item-text-wrap">
+		  	Aplicacion desarrollada por Edgar Gomez Gutierrez, puede ver la informacion del creador abajo
+		  </div>
+		   <div class="item item-divider icon-left">
+		   	<a ui-sref="curriculum" class="button ion-ios-book-outline">    Curriculum </a>
+		  </div>
+		  <div class="item item-divider icon-left">
+		   	<a href="mailto:edgar_gomezg@outlook.com" class="button ion-android-mail">   {{author.email}}</a>
+		  </div>
+		  <div class="item item-divider icon-left">
+		   	<a href="https://twitter.com/DigimonTamer3" class="button ion-social-twitter">    {{author.twitter}}</a>
+		  </div>
+		  <div class="item item-divider icon-left">
+		   	<a href="tel: +52 -614-409-83-16" class="button ion-android-call">     {{author.phone}}</a>
+		  </div>
+	</div>
+</ion-content>
